@@ -1,0 +1,7 @@
+new line
+ new line_writenew line_appendnew line
+new line
+new line
+m.x + " " + m.z + " " + m.y + " = " + m.result()
+sedgier
+ new line_writeappend
