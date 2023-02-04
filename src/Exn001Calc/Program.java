@@ -8,5 +8,6 @@ public class Program {
         var v = new View();
         Presenter p = new Presenter(m, v);
         p.buttonClick();
+        System.out.println(m.x + " " + m.d + " " + m.y + " = " + m.result());
     }
 }
