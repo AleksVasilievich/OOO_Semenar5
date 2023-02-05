@@ -20,16 +20,16 @@ public class ShowResult extends CalcModel {
 
     @Override
     public void setX(Double value) {
-        super.x = value;
+        x = value;
     }
 
     @Override
     public void setY(Double value) {
-        super.y = value;
+        y = value;
     }
 
     @Override
     public void setZ(Double value) {
-        super.z = value;
+        z = value;
     }
 }

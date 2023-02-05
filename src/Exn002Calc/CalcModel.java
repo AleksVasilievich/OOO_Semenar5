@@ -1,5 +1,5 @@
 package Exn002Calc;
 
 public abstract class CalcModel implements Model {
-    Double x, y, z;
+    static Double x, y, z;
 }

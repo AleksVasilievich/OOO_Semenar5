@@ -10,13 +10,15 @@ public class Presenter {
     }
 
     public void buttonClick() {
-        Double a = view.getValue("a: ");
-        Double b = view.getValue("b: ");
-        Double z = view.getValue("z: ");
+        Double z = view.getValue("Команда --> ");
+        Double a = view.getValue("Первое число --> ");
+        Double b = view.getValue("Втотое число --> ");
+
+        model.setZ(z);
         model.setX(a);
         model.setY(b);
-        model.setZ(z);
+
         Double result = model.result();
-        view.print(result, "Res: ");
+        view.print(result, "Результат --> ");
     }
 }

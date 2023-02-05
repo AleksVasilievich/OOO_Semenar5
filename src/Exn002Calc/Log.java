@@ -4,7 +4,9 @@ import java.io.File;
 import java.io.FileWriter;
 import java.io.IOException;
 
-public class Log  {
+import static Exn002Calc.CalcModel.*;
+
+public class Log {
     ShowResult m = new ShowResult();
 
     void log() {
@@ -16,14 +18,16 @@ public class Log  {
                 System.out.println("file.created");
             } else {
 
-                System.out.println("file.existed");
+                System.out.println("Log in file1.txt");
                 FileWriter fileWriter = new FileWriter(file, true);
-                fileWriter.write("sedgier");
+
+                fileWriter.write("Task -> № command - 1 number - 2 number - result\n");
+                fileWriter.write(String.valueOf(z) + "  ");
+                fileWriter.write(String.valueOf(x) + "  ");
+                fileWriter.write(String.valueOf(y) + "  ");
+                fileWriter.write(String.valueOf(m.result()));
                 fileWriter.append(System.lineSeparator());
 
-                fileWriter.write(" new line_write");
-//                fileWriter.append(String.valueOf(m.x)).append(" ").append(String.valueOf(m.z)).append(" ").append(String.valueOf(m.y)).append(" = ").append(String.valueOf(m.result()));
-                fileWriter.append("append");
                 fileWriter.flush();
                 fileWriter.close();
             }
