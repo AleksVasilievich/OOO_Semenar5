@@ -33,3 +33,5 @@ Task -> 1 number - 2 number - № command - result
 56.0  78.0  3.0  4368.0
 Task -> № command - 1 number - 2 number - result
 3.0  34.0  56.0  1904.0
+Task -> № command - 1 number - 2 number - result
+3.0  34.0  57.0  1938.0
