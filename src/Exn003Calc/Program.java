@@ -1,4 +1,4 @@
-package Exn002Calc;
+package Exn003Calc;
 public class Program {
     public static void main(String[] args) {
         System.out.println("Программа Калькулятор --- Меню ---");

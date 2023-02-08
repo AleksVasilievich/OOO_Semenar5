@@ -1,5 +1,6 @@
-package Exn002Calc;
-public class Program {
+package Calc2;
+
+public class Main {
     public static void main(String[] args) {
         System.out.println("Программа Калькулятор --- Меню ---");
         System.out.println("Введите команду на выбор :\n 1 - сложить; 2 - вычесть; 3 - умножить; 4 - делить");
@@ -9,6 +10,6 @@ public class Program {
         Presenter p = new Presenter(m, v);
         p.buttonClick();
         l.log();
-    }
 
+    }
 }
