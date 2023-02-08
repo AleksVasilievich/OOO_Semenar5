@@ -1,7 +1,7 @@
 package Calc2;
 
 /**
- * Программа Лолькулятор :
+ * Программа Калькулятор :
  * Абсекактный класс со статическими полями.
  */
 public abstract class CalcMod implements Model {
